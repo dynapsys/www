@@ -28,3 +28,8 @@ Additionally, this strategy could be part of an infrastructure-as-code (IaC) sys
 
 It’s important to note that while storing URLs in TXT records is possible, there are limits to the size of TXT records, so the url is too limited.
 Moreover, some DNS providers offer APIs that might be more suited to automation than relying on DNS records for service management.
+
+
+---
++ [edit](https://github.com/dynapsys/www/edit/main/README.md)
++ [project](https://github.com/dynapsys)
