@@ -1,6 +1,6 @@
 # [www.dynapsys.com](https://www.dynapsys.com/)
 
-**dynapsys** is a dynamic infrastructure of services based on DNS configuration with CNAME RECORD for redirection to FaaS provider and TXT RECORD as url for url of git repository with:
+**dynapsys** is a dynamic infrastructure of services based on DNS configuration with CNAME RECORD for redirection to FaaS provider and TXT RECORD as url of git repository with:
 + source-code
 + definition for deployment purpose
 + configuration of ready to use service on FaaS platform/marketplace
