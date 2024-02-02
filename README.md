@@ -1,5 +1,7 @@
 # [www.dynapsys.com](https://www.dynapsys.com/)
 
+![Animiertes Logo 500x500 px](https://github.com/dynapsys/www/assets/5669657/d6046bf3-7b0e-47fc-8aeb-6691581daac8)
+
 
 Dynapsys provides a dynamic infrastructure through DNS configurations, utilizing CNAME RECORDS for FaaS provider redirection and TXT RECORDS for Git repository URLs, enabling source-code access, deployment definitions, and configurations for ready-to-use services on FaaS platforms.
 
