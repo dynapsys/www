@@ -3,6 +3,15 @@
 
 Dynapsys provides a dynamic infrastructure through DNS configurations, utilizing CNAME RECORDS for FaaS provider redirection and TXT RECORDS for Git repository URLs, enabling source-code access, deployment definitions, and configurations for ready-to-use services on FaaS platforms.
 
+DNS-configured services leverage the Domain Name System (DNS) to manage and map domain names to the internet resources, providing dynamic and scalable solutions for directing user requests to appropriate servers, load balancing, and even implementing failover mechanisms or geo-targeting strategies. These services utilize DNS records, such as A records for IP address mapping, CNAME records for domain aliasing, TXT records for metadata, and others, to configure how traffic to a domain should be handled, enabling more efficient and flexible deployment of web applications, content delivery networks (CDNs), and other online services.
+
+
+- **A and AAAA Records**: Direct domain names to IP addresses of servers hosting the services.
+- **CNAME Records**: Alias one domain name to another, allowing a single service to be accessed through multiple domain names or directing to cloud services and content delivery networks (CDNs).
+- **TXT Records**: Store text information in DNS for various purposes, including verification of domain ownership, SPF records for email security, and could be creatively used to store metadata for services.
+- **SRV Records**: Used in some services to define the location of servers or services, specifying a hostname and port number for specific services, making it useful for services that require multiple ports or protocols.
+- **DNS Load Balancing**: Distributing traffic across multiple servers to ensure no single server becomes overwhelmed, improving service reliability and latency.
+
 
 ## About
 
