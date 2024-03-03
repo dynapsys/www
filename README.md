@@ -83,7 +83,27 @@ Moreover, some DNS providers offer APIs that might be more suited to automation 
 + [Systemy rozproszone - liczne zastosowania w przedsiębiorstwach](https://mindboxgroup.com/pl/systemy-rozproszone-liczne-zastosowania-w-przedsiebiorstwach-o-ktorych-warto-wiedziec/)
 
 
+## Kubernetes
 
+Istnieje kilka prostszych alternatyw Kubernetes, które równie dobrze wspierają autentyfikację i autoryzację:
+
+1. **Serverless Frameworks**:
+    - **AWS Lambda** razem z **Amazon API Gateway** i **Amazon Cognito** do zarządzania tożsamościami i dostępem. AWS Cognito zapewnia pełne wsparcie dla autentyfikacji użytkowników, w tym integrację z zewnętrznymi dostawcami tożsamości (np. Google, Facebook) oraz wsparcie dla dwuskładnikowej autentyfikacji (2FA) i kontroli dostępu.
+    - **Azure Functions** w połączeniu z **Azure API Management** i **Azure Active Directory** (Azure AD) lub **Azure Active Directory B2C** (AAD B2C) dla zarządzania tożsamościami i autoryzacją.
+
+2. **FaaS (Function as a Service)**:
+    - Oprócz wspomnianych AWS Lambda i Azure Functions, warto rozważyć również **Google Cloud Functions** zintegrowanych z **Firebase Authentication** i **Google Cloud Endpoints**. Firebase Authentication oferuje prostą, ale potężną obsługę autentyfikacji użytkowników, w tym integracje z różnymi systemami tożsamości socjalnych oraz własną bazą użytkowników.
+
+3. **Lekkie Orkiestracje**:
+    - **Nomad** od HashiCorp może być dobrą opcją dla tych, którzy szukają czegoś prostszego niż Kubernetes. Nomad jest silnikiem Orkiestracji, który wspiera zarządzanie kontenerami, aplikacjami wirtualnymi i aplikacjami na poziomie systemu operacyjnego. Do autoryzacji i autentykacji, można wykorzystać **Vault** - również produkt HashiCorp, który zapewnia zarządzanie sekretami i tożsamościami dla aplikacji.
+
+4. **Lekkie API Gateway**:
+    - **Tyk** i **Kong** to popularne, otwarte API Gateway, które mogą działać jako lekka warstwa autentykacji przed twoimi mikrousługami. Obydwa pozwalają na łatwe wdrażanie mechanizmów autentyfikacji, takich jak klucze API, tokeny OAuth oraz integrację z zewnętrznymi systemami zarządzania tożsamościami.
+  
+5. **Frameworki Programistyczne**:
+    - **Express.js** z **Passport.js** dla aplikacji Node.js lub **Flask** z **Flask-Login** dla aplikacji Pythona. Te kombinacje frameworków i bibliotek oferują elastyczne i łatwe do zaimplementowania opcje zarządzania autentyfikacją i autoryzacją dla prostszych aplikacji.
+
+Pamiętaj, że wybór narzędzia zależeć będzie od wielu czynników, takich jak język programowania, w którym czujesz się najbardziej pewnie, wymagania projektu, a także Twoje doświadczenie z konkretnymi technologiami. Warto zawsze rozważyć te aspekty, wybierając odpowiednie narzędzia do wprowadzenia systemów autentyfikacji i autoryzacji w Twoich projektach.
 
 
 ---
