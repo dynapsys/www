@@ -49,6 +49,40 @@ It’s important to note that while storing URLs in TXT records is possible, the
 Moreover, some DNS providers offer APIs that might be more suited to automation than relying on DNS records for service management.
 
 
+## Why
+
+**Systemy rozproszone** stanowią fascynujący obszar w dziedzinie informatyki. Oto kilka rozważań na temat małych, rozproszonych usług:
+
+1. **Architektura Mikrousług**:
+    - **Mikrousługi** to jedna z odmian systemów rozproszonych. Polega na podziale aplikacji na **oddzielne komponenty** lub "usługi".
+    - Każda mikrousługa obsługuje **konkretną funkcję biznesową**, taką jak płatności, zarządzanie użytkownikami czy obsługa produktów.
+    - Dzięki temu podejściu można łatwiej skalować poszczególne komponenty i unikać **centralnych punktów awarii**.
+    - Mikrousługi są **transparentne** – węzły mogą uzyskiwać dostęp do innych węzłów w systemie i komunikować się z nimi.
+
+2. **Przewagi Systemów Rozproszonych**:
+    - **Współdzielenie zasobów**: System rozproszony może współdzielić sprzęt, oprogramowanie lub dane.
+    - **Przetwarzanie równoczesne**: Wiele komputerów może przetwarzać tę samą funkcję jednocześnie.
+    - **Skalowalność**: Wydajność obliczeniową i przetwarzanie można skalować w razie potrzeby po rozszerzeniu o dodatkowe komputery.
+    - **Wykrywanie błędów**: Awarie można łatwiej wykrywać.
+    - **Transparentność**: Węzły mogą komunikować się ze sobą.
+
+3. **Systemy Scentralizowane vs. Rozproszone**:
+    - **System scentralizowany** to taki, w którym wszystkie obliczenia są wykonywane przez **jeden komputer** znajdujący się w pojedynczej lokalizacji.
+    - W systemie scentralizowanym stan systemu jest zawarty w **centralnym węźle**, do którego klienci mają dostęp indywidualnie.
+    - W przeciwności do tego, system rozproszony nie ma **jednego punktu awarii** i składa się z wielu oddzielnych węzłów.
+
+4. **Małe Rozproszone Usługi**:
+    - W przypadku małych rozproszonych usług, warto rozważyć **architekturę mikrousług**.
+    - Każda mikrousługa może obsługiwać **konkretną funkcję** i być **wbudowana** w cały system.
+    - Przykłady małych usług to: autoryzacja użytkowników, zarządzanie sesjami, obsługa płatności, czy zarządzanie produktami.
+    - Ważne jest, aby **dokładnie przemyśleć granice** między poszczególnymi usługami, aby uniknąć nadmiernego skomplikowania systemu.
+
+
+Źródło:
++ [Czym jest system rozproszony? - Atlassian](https://www.atlassian.com/pl/microservices/microservices-architecture/distributed-architecture)
++ [Systemy rozproszone - liczne zastosowania w przedsiębiorstwach](https://mindboxgroup.com/pl/systemy-rozproszone-liczne-zastosowania-w-przedsiebiorstwach-o-ktorych-warto-wiedziec/)
+
+
 
 
 
