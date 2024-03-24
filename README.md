@@ -8,6 +8,8 @@ Dynamic infrastructure for configuring DNS-based services
 [DYNAPSYS -text.to.services](https://text.to.services/)
 
 
+![obraz](https://github.com/dynapsys/www/assets/5669657/7e0e2f1b-2d60-4b47-ad29-8e9c4ed49f48)
+
 
 
 Dynapsys provides a dynamic infrastructure through DNS configurations, utilizing CNAME RECORDS for FaaS provider redirection and TXT RECORDS for Git repository URLs, enabling source-code access, deployment definitions, and configurations for ready-to-use services on FaaS platforms.
